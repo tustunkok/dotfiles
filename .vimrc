@@ -7,10 +7,16 @@ syntax enable
 set tabstop=2
 
 " Number of spaces in tab when editing
-set softtabstop=4
+set softtabstop=0
 
 " Convert tabs into spaces
 set expandtab
+
+" Number of indents
+set shiftwidth=2
+
+" Enable automatic tabs
+set smarttab
 
 " #### UI CONFIG ####
 "
@@ -21,7 +27,7 @@ set number
 set showcmd
 
 " Highlight current line
-set cursorline
+"set cursorline
 
 " Load filetype specific indent files
 filetype indent on
