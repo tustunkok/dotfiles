@@ -1,3 +1,7 @@
+call plug#begin()
+Plug 'dracula/vim', { 'as': 'dracula' }
+call plug#end()
+
 " #### SPACES & TABS ####
 "
 " Enable sytax processing
@@ -49,6 +53,9 @@ set incsearch
 " Highlight matches
 set hlsearch
 
+" Set theme
+colorscheme dracula
+
 " #### FOLDING ####
 " 
 " Enable folding
@@ -62,4 +69,5 @@ set hlsearch
 
 " Fold based on indent level
 "set foldmethod=indent
+
 
