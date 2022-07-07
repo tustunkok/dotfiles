@@ -64,6 +64,8 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 " Set theme
 colorscheme dracula
 
+set backspace=indent,eol,start
+
 " #### FOLDING ####
 " 
 " Enable folding
